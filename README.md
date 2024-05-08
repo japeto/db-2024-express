@@ -22,11 +22,11 @@ Debes estar en la carpeta raíz del proyecto.
 cd backend_express
 ```
 
-## Crear el contenedor para el backend
+## Crear la imagen para el backend
 
 `docker build -t japeto/mande_ui .`
 
-## Instalar las dependencias con npm
+## Crear un contenedor a partir de la imagen
 
 `docker run --rm --name mande_ui japeto/mande_ui /bin/bash`
 
